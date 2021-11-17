@@ -1,5 +1,5 @@
 {
-  "name": "ThedoRap/Aes",
+  "name": "thedorap/aes",
   "description": "基于 openssl 扩展的 AES 加解密 支持  ECB , CBC , CFB , OFB",
   "type": "library",
   "keywords": [
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ThedoRap\\Reaper\\Aes\\": "src"
+      "thedorap\\reaper\\aes\\": "src"
     }
   }
 }
