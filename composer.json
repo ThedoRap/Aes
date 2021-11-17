@@ -30,8 +30,8 @@
     "ext-openssl": "*"
   },
   "autoload": {
-      "psr-4": {
-          "ThedoRap\\Reaper\\Aes\\": "src"
-      }
+    "psr-4": {
+      "ThedoRap\\Reaper\\Aes\\": "src"
+    }
   }
 }
