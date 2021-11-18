@@ -88,8 +88,7 @@ class Aes
      */
     private function unPkcsPadding($str)
     {
-        $len = strlen($str) - 1;
-        return str_replace($str{$len}, '', $str);
+        return str_replace(substr($str, -4), '', $str);
     }
 
     /**
@@ -103,7 +102,7 @@ class Aes
     private function pkcsPadding($str, $blocksize)
     {
         $pad = $blocksize - (strlen($str) % $blocksize);
-        return $str . str_repeat(chr(rand(128, 255)), $pad);
+        return $str . str_repeat(base64_encode(chr(rand(128, 255))), $pad);
     }
 
 }
