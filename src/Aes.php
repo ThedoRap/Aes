@@ -3,7 +3,7 @@
  * @author ThedoRap||Reaper <a@0oo.ren>
  */
 
-namespace Aes;
+namespace ThedoRap;
 
 /**
  * 基于 openssl 扩展的 AES 加解密
