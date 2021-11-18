@@ -83,7 +83,7 @@ class Aes
     /**
      * 删除补全
      *
-     * @param $str
+     * @param string $str
      * @return string
      */
     private function unPkcsPadding($str)
@@ -96,8 +96,8 @@ class Aes
      * 补全
      * 128-255 为 八进制 ASCII码
      *
-     * @param $str
-     * @param $blocksize
+     * @param string $str
+     * @param int $blocksize
      * @return string
      */
     private function pkcsPadding($str, $blocksize)
